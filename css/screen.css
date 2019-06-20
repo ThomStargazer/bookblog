@@ -122,6 +122,7 @@ ul.posts {
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+    bottom: 0;
   }
 
     .site .footer .contact {
