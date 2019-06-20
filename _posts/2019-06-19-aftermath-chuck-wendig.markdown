@@ -5,7 +5,7 @@ date:   2019-06-19 14:17:41 -0700
 categories: review
 ---
 
-![Cover](/assets/images/covers/2019-06-19-aftermath-chuck-wendig.jpg){: .align-center}
+![Cover]({{ '/assets/images/covers/2019-06-19-aftermath-chuck-wendig.jpg' | prepend: site.baseurl }}){: .align-center}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A pellentesque sit amet porttitor eget dolor morbi. Morbi tincidunt augue interdum velit euismod in pellentesque massa. Semper feugiat nibh sed pulvinar. Lacinia quis vel eros donec ac odio tempor. Nibh cras pulvinar mattis nunc sed blandit libero volutpat sed. Elit ullamcorper dignissim cras tincidunt. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Nisl pretium fusce id velit. Facilisis gravida neque convallis a. Mi tempus imperdiet nulla malesuada pellentesque. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Arcu non sodales neque sodales. Nullam vehicula ipsum a arcu cursus. Mattis molestie a iaculis at erat. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit.
 
