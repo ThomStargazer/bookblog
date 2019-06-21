@@ -286,6 +286,19 @@ ul.posts {
   font-size: 90%;
 }
 
+#homepost {
+
+}
+
+  #homepost ul,
+  #homepost ol {
+    list-style-type: none;
+    margin-left: 1.35em;
+  }
+
+  #homepost li::before {
+    content: ":book: ";
+  }
 
 /*****************************************************************************/
 /*
