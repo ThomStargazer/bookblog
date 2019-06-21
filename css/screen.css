@@ -82,7 +82,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 65em;
+  width: 70em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -147,7 +147,7 @@ ul.posts {
 .topnav {
   font-size: 110%;
   text-align: justify;
-  width: 65em;
+  width: 100%;
   margin: auto auto 2em auto;
   line-height: 1.5em;
   background-color: #05386B;
@@ -275,11 +275,11 @@ ul.posts {
   }
 
 #related {
-  margin-top: 2em;
+
 }
 
   #related h2 {
-    margin-bottom: 1em;
+
   }
 
 #recent ul {
@@ -287,7 +287,7 @@ ul.posts {
 }
 
 #homepost {
-
+  margin-top: 1em;
 }
 
   #homepost ul,

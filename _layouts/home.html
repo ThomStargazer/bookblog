@@ -9,7 +9,7 @@ layout: columns
 
 
   <div id="post"> <!-- Newest Post Excerpt -->
-    <h1>{{ site.posts.first.title }}</h1>
+    <h1><a href="{{ site.posts.first.url | prepend: site.baseurl }}">{{ site.posts.first.title }}</a></h1>
     <h2>{{ site.posts.first.date | date: '%B %d, %Y' }} | Written by {{ site.posts.first.author }}</h2>
     <p>
 
