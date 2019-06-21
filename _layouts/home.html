@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: columns
 ---
 
 <div class="home">
@@ -8,8 +8,14 @@ layout: default
   {%- endif -%}
 
 
-  <div class="row">
-    <!-- Newest Review  -->
+  <div id="post">
+    <h1>{{ site.posts.first.title }}</h1>
+    <h2>{{ site.posts.first.date | date: '%B %d, %Y' }} | Written by {{ site.posts.first.author }}</h2>
+    <p>
+
+      {{ site.posts.first.excerpt }}
+      <a href="{{ site.posts.first.url | prepend: site.baseurl }}">Read More...</a>
+    </p>
   </div>
 
   <!-- More Reviews -->

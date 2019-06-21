@@ -1,19 +1,18 @@
 <div class="sidebar">
 
-  <div class="row">
-    <div class="card">
-      {% include related-posts.html %}
-    </div>
+  <div class="row card">
+      <h2>Welcome to BookSpice!</h2>
+      A blog about science fiction and fantasy literature, and my continuing hatred for author Chuck Wendig.
+  </div>
+
+  <div class="row card">
+    {% include recent-posts.html %}
   </div>
 
   <div class="row card">
       <a href="https://www.goodreads.com/user/show/26920724-nick-hall">
         <img src="{{ '/assets/images/goodreads-small.png' | prepend: site.baseurl }}" alt="Goodreads Profile">
       </a>
-  </div>
-
-  <div class="row card">
-      About Me
   </div>
 
 </div>

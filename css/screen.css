@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-  background-color: #F7F5DE;
+  background-color: #379683;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -150,7 +150,7 @@ ul.posts {
   width: 65em;
   margin: auto auto 2em auto;
   line-height: 1.5em;
-  background-color: #332C2C;
+  background-color: #05386B;
   overflow: hidden;
   z-index: 1;
 }
@@ -170,9 +170,17 @@ ul.posts {
   }
 
   .topnav a.active {
-    background-color: #7D3232;
+    background-color: #5CDB95;
     color: white;
   }
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .column {
   float: left;
@@ -228,6 +236,16 @@ ul.posts {
     margin-left: 1.35em;
   }
 
+  #post h1 {
+    font-size: 200%;
+    margin-bottom: .5em;
+  }
+
+  #post h2 {
+    font-size: 80%;
+    color: #666;
+  }
+
   #post code {
     border: 1px solid #ddd;
     background-color: #eef;
@@ -264,6 +282,8 @@ ul.posts {
     margin-bottom: 1em;
   }
 
+
+
 /*****************************************************************************/
 /*
 /* Sidebar
@@ -273,7 +293,7 @@ ul.posts {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: left;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 16px;
   margin-bottom: 20px;
 }
