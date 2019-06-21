@@ -1,7 +1,7 @@
 <div id="recent">
   <h2>Recent Reviews</h2>
   <ul class="posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
       <li>&raquo;<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

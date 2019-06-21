@@ -8,7 +8,7 @@ layout: columns
   {%- endif -%}
 
 
-  <div id="post">
+  <div id="post"> <!-- Newest Post Excerpt -->
     <h1>{{ site.posts.first.title }}</h1>
     <h2>{{ site.posts.first.date | date: '%B %d, %Y' }} | Written by {{ site.posts.first.author }}</h2>
     <p>
@@ -16,17 +16,6 @@ layout: columns
       {{ site.posts.first.excerpt }}
       <a href="{{ site.posts.first.url | prepend: site.baseurl }}">Read More...</a>
     </p>
-  </div>
-
-  <!-- More Reviews -->
-  <div class="row">
-    <div class="column equal">
-
-    </div>
-
-    <div class="column equal">
-
-    </div>
   </div>
 
 
