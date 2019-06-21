@@ -17,7 +17,9 @@ html, body {
 }
 
 body {
-  background-color: #379683;
+  /*background-color: #F4EEDD;*/
+  background: url("/bookblog/assets/images/octopus.png") no-repeat left top, #F4EEDD;
+  background-position: 0 5em;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -150,7 +152,7 @@ ul.posts {
   width: 100%;
   margin: auto auto 2em auto;
   line-height: 1.5em;
-  background-color: #05386B;
+  background-color: #0C5678;
   overflow: hidden;
   z-index: 1;
 }
@@ -170,7 +172,7 @@ ul.posts {
   }
 
   .topnav a.active {
-    background-color: #5CDB95;
+    background-color: #C25151;
     color: white;
   }
 
