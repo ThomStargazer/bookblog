@@ -11,13 +11,23 @@
   </div>
 
   <div class="row card">
+    <p>
+      {% for tag in site.tags %}
+        <!-- Here's a hack to generate a "tag cloud" where the size of
+        the word is directly proportional to the number of posts with
+        that tag. -->
+        <a href="/bookblog/tags/{{ tag[0] }}/"
+        style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
+            {{ tag[0] }} |
+        </a>
+      {% endfor %}
+    </p>
+  </div>
+
+  <div class="row card">
       <a href="https://www.goodreads.com/user/show/26920724-nick-hall">
         <img src="{{ '/assets/images/goodreads-small.png' | prepend: site.baseurl }}" alt="Goodreads Profile">
       </a>
   </div>
-<!--
-  <div class="row card">
-    <h2>Tags</h2>
-  </div>
--->
+
 </div>

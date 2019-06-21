@@ -4,4 +4,11 @@ layout: columns
 <div id="post">
   {% include post-title.html %}
   {{ content }}
+
+  <small>
+    {% for tag in page.tags %}
+    <a href="/bookblog/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+  </small>
+
 </div>

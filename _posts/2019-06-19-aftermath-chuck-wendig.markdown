@@ -3,6 +3,7 @@ layout: post
 title:  "Aftermath by Chuck Wendig"
 date:   2019-06-19 14:17:41 -0700
 categories: review
+tags: scifi
 excerpt_separator: <!--more-->
 ---
 
